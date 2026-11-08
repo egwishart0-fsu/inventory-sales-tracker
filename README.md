@@ -41,3 +41,26 @@ Mug x 3 @ $8.50 = $25.50
 #Week 4
 Progress: Created validation check for nonempty SKU/name/category, positive price, nonnegative inventory, and positive sales quantity. Also added a check for existing duplicates for a new SKU. Rejected sales higher than the available quantity which cancels sale.
 
+Test 1: Duplicate SKU, valid sale, and blank name. Expect an error message for duplicate SKU and blank name. Expect sale to run and report subtotal. Actual results matched expected results.
+
+#only pasted meaningful outputs
+
+Product Validation
+Mug: Product Information is Valid
+Bowl: Product Information is Valid
+Teapot: Invalid: Name cannot be blank
+New SKU rejected: duplicate SKU already exists
+
+Record Sale
+Product: Mug
+Starting Quantity: 100
+Quantity Sold: 3
+Remaining Quantity: 97
+
+Sales Receipt
+Mug x 3 @ $8.50 = $25.50
+
+Test 2: Oversell attempt, expect sale to be rejected. Actual results matched expected results.
+
+
+
