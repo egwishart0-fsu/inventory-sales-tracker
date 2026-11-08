@@ -38,3 +38,6 @@ Name: Teapot , SKU: 003 , Category: Kitchenware , Price: $ 25.00 , Quantity: 40
 Sales Receipt
 Mug x 3 @ $8.50 = $25.50
 ---------------------------------------------------------------------------------------------------------------------------
+#Week 4
+Progress: Created validation check for nonempty SKU/name/category, positive price, nonnegative inventory, and positive sales quantity. Also added a check for existing duplicates for a new SKU. Rejected sales higher than the available quantity which cancels sale.
+
