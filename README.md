@@ -1,12 +1,12 @@
-# inventory-sales-tracker
+inventory-sales-tracker
 Emily Wishart
 Semester Project: Small Store
 
-#Week 2
+Week 2
 ---------------------------------------------------------------------------------------------------------------------------
 Progress: Created an initial prototype, with a price, and subtotal calculation.
 
-#Week 3
+Week 3
 ---------------------------------------------------------------------------------------------------------------------------
 Progress: Added 2 more products, along with product detail information, stock, and sales.
 
@@ -40,7 +40,7 @@ Name: Teapot , SKU: 003 , Category: Kitchenware , Price: $ 25.00 , Quantity: 40
 Sales Receipt
 Mug x 3 @ $8.50 = $25.50
 
-#Week 4
+Week 4
 ---------------------------------------------------------------------------------------------------------------------------
 Progress: Created validation check for nonempty SKU/name/category, positive price, nonnegative inventory, and positive sales 
 quantity. Also added a check for existing duplicates for a new SKU. Rejected sales higher than the available quantity which cancels sale.
