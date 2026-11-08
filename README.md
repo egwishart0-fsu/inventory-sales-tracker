@@ -3,9 +3,11 @@ Emily Wishart
 Semester Project: Small Store
 
 #Week 2
-Progress: Created an initial prototype, with a price, and subtotal calculation.
 ---------------------------------------------------------------------------------------------------------------------------
+Progress: Created an initial prototype, with a price, and subtotal calculation.
+
 #Week 3
+---------------------------------------------------------------------------------------------------------------------------
 Progress: Added 2 more products, along with product detail information, stock, and sales.
 
 -----Product detail Information-----
@@ -37,9 +39,11 @@ Name: Teapot , SKU: 003 , Category: Kitchenware , Price: $ 25.00 , Quantity: 40
 
 Sales Receipt
 Mug x 3 @ $8.50 = $25.50
----------------------------------------------------------------------------------------------------------------------------
+
 #Week 4
-Progress: Created validation check for nonempty SKU/name/category, positive price, nonnegative inventory, and positive sales quantity. Also added a check for existing duplicates for a new SKU. Rejected sales higher than the available quantity which cancels sale.
+---------------------------------------------------------------------------------------------------------------------------
+Progress: Created validation check for nonempty SKU/name/category, positive price, nonnegative inventory, and positive sales 
+quantity. Also added a check for existing duplicates for a new SKU. Rejected sales higher than the available quantity which cancels sale.
 
 Test 1: Duplicate SKU, valid sale, and blank name. Expect an error message for duplicate SKU and blank name. Expect sale to run and report subtotal. Actual results matched expected results.
 
@@ -61,6 +65,11 @@ Sales Receipt
 Mug x 3 @ $8.50 = $25.50
 
 Test 2: Oversell attempt, expect sale to be rejected. Actual results matched expected results.
+
+#meaningful outputs
+
+Record Sale
+Sale Rejected: Invalid Sale Amount
 
 
 
