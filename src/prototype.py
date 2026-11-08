@@ -96,7 +96,7 @@ print("\nRecord Sale")
 sale_amount = 3
 
 def validate_sale_amount(sale_amount):
-    if sale_amount <= 0:
+    if sale_amount <= 0 or sale_amount > mug_quantity::
         raise ValueError("Invalid Sale Amount")
     return sale_amount
 
