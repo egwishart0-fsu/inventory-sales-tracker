@@ -1,4 +1,5 @@
-inventory-sales-tracker
+Inventory-sales-tracker
+---------------------------------------------------------------------------------------------------------------------------
 Emily Wishart
 Semester Project: Small Store
 
